@@ -51,7 +51,7 @@ export default function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Lousa <span style={{ color: "#818cf8" }}>IA</span>
+        Receita <span style={{ color: "#818cf8" }}>IA</span>
       </motion.h1>
       <motion.p
         style={{
