@@ -44,7 +44,7 @@ export default function App() {
 		<div
 		  style={{
 			width: "100%",
-			maxWidth: "1024px", // agora seu conteúdo pode ser mais largo
+			maxWidth: "720px", // agora seu conteúdo pode ser mais largo
 			display: "flex",
 			flexDirection: "column",
 			alignItems: "center",
