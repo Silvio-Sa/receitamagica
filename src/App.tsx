@@ -29,25 +29,29 @@ export default function App() {
   }
 
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "linear-gradient(135deg, #0f172a 0%, #312e81 100%)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "2rem",
-      }}
-    >
-      <div
-        style={{
-          width: "100%",
-          maxWidth: "1024px", // Ajuste aqui se quiser mais largo (ex: "600px")
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+	  <div
+		style={{
+		  minHeight: "100vh",
+		  width: "100vw", // ocupa a tela inteira na horizontal
+		  background: "linear-gradient(135deg, #0f172a 0%, #312e81 100%)",
+		  display: "flex",
+		  alignItems: "center",
+		  justifyContent: "center",
+		  padding: "2rem",
+		  boxSizing: "border-box", // Garante responsividade ao somar padding/largura
+		}}
+	  >
+		<div
+		  style={{
+			width: "100%",
+			maxWidth: "1024px", // agora seu conteúdo pode ser mais largo
+			display: "flex",
+			flexDirection: "column",
+			alignItems: "center",
+			margin: "0 auto", // importante para centralizar se não usar flex
+			boxSizing: "border-box",
+		  }}
+		>
         <motion.h1
           style={{
             fontSize: "3rem",
