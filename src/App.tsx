@@ -13,7 +13,7 @@ export default function App() {
     setRecipe("");
     try {
       const response = await fetch(
-        "https://tboneguy.app.n8n.cloud/webhook/receitamagica",
+        "https://714c-179-218-7-123.ngrok-free.app",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
